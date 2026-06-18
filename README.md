@@ -56,29 +56,6 @@ bashnpm run build
 Output is written to the dist/ folder. Deploy to Vercel, Netlify, or GitHub Pages.
 
 
-Project Structure
-
-notetag/
-├── public/
-├── src/
-│   ├── components/
-│   │   ├── EmptyState.jsx     # Empty list state UI
-│   │   ├── NoteCard.jsx       # Individual note card
-│   │   ├── NoteModal.jsx      # Create / edit modal with tag input
-│   │   ├── SearchBar.jsx      # Search input + result count
-│   │   └── TagFilter.jsx      # Tag filter pill row
-│   ├── utils/
-│   │   ├── noteHelpers.js     # filterNotes, getAllTags, formatDate
-│   │   ├── storage.js         # localStorage read / write with defaults
-│   │   └── tagColors.js       # Deterministic tag colour palette
-│   ├── App.css                # Full design system (tokens, layout, dark mode)
-│   ├── App.jsx                # Root component and state management
-│   └── main.jsx               # React entry point
-├── index.html
-├── package.json
-└── vite.config.js
-
-
 Assumptions
 
 
